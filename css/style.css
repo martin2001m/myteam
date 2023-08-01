@@ -1,0 +1,296 @@
+/* HEADER STYLE */
+
+.header {
+  margin-top: 73px;
+}
+
+.header_container {
+  display: flex;
+  align-items: center;
+}
+.site_logo {
+  display: flex;
+  margin-right: 80px;
+}
+.nav {
+  margin-right: auto;
+}
+.nav_list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.nav_link {
+  font-size: 18px;
+  color: var(--primary-white-color);
+}
+
+.btn {
+  display: inline-block;
+  padding: 9px 33px 11px 32px;
+  border-radius: 24px;
+  border: 2px solid #fff;
+  color: var(--primary-white-color);
+  transition: 0.3s linear;
+}
+.btn:hover {
+  background: var(--primary-white-color);
+  color: var(--secondary-dark-green);
+}
+/* ==========================================================================================================*/
+
+/* MAIN STYLE */
+
+.main {
+  padding-top: 133px;
+}
+/* HIRO */
+.hero {
+  padding-bottom: 250px;
+  background: url(../img/hero-bottom.svg), url(../img/hero-left.svg);
+  background-position: left top, bottom right 250px;
+  background-repeat: no-repeat;
+}
+.hero_container {
+  display: flex;
+}
+.hero_title {
+  width: 100%;
+  max-width: 635px;
+  font-family: "Livvic";
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 100px;
+  color: var(--primary-white-color);
+}
+.hero_wrapper hr {
+  margin-bottom: 79px;
+}
+.hero_wrapper {
+  width: 100%;
+  max-width: 435px;
+}
+.hero_wrapper p {
+  font-family: Livvic;
+  font-size: 18px;
+  color: var(--primary-white-color);
+}
+/* SERVICES */
+.services {
+  padding: 140px 0;
+  background: url(../img/services-right.svg), var(--secondary-sacramento-state-green-color);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+.services_container {
+  display: flex;
+  justify-content: space-between;
+}
+.services_wrapper {
+  width: 100%;
+  max-width: 445px;
+}
+.services_wrapper h3 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  color: var(--primary-white-color);
+}
+.services_list {
+  width: 100%;
+  min-width: 540px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 58px;
+}
+.services_item {
+  display: flex;
+  gap: 23px;
+}
+.services_item::before {
+  content: url(../img/icon-feature-experience.svg);
+}
+.services_item:nth-child(2)::before {
+  content: url(../img/icon-feature-implementation.svg);
+}
+.services_item:nth-child(3)::before {
+  content: url(../img/icon-feature-productivity.svg);
+}
+.services_item h4 {
+  font-size: 18px;
+  padding-bottom: 16px;
+  font-weight: 700;
+  color: var(--primary-light-coral-color);
+}
+.services_item p {
+  width: 100%;
+  max-width: 445px;
+  line-height: 25px;
+  color: var(--primary-white-color);
+}
+/* COMMENTS */
+.comments {
+  padding: 140px 0;
+  background: url(../img/reviews-bg-left.svg), url(../img/reviews-bg-right.svg);
+  background-position: left top, right bottom;
+  background-repeat: no-repeat;
+}
+.comments_desc_title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  color: var(--primary-white-color);
+  margin-bottom: 92px;
+}
+
+/* .comments_wrapper {
+  display: flex;
+} */
+
+.comments_desc_list {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 52px;
+  text-align: center;
+}
+
+.comments_desc_item {
+    position: relative;
+    width: 350px;
+}
+.comments_desc_item::before{
+    content: url('../img/icon-quotes.svg');
+    position: absolute;
+    /* background: url('../img/icon-quotes.svg'); */
+    background-repeat: no-repeat;
+    top: -40px;
+    left: 140px;
+    z-index: -1;
+}
+
+.comments_desc_item_title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--secondary-rapture-blue-color);
+ 
+}
+.comments_desc_item_job{
+    font-style: italic;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px; 
+    margin-bottom: 32px;
+    color: var(--primary-white-color);
+}
+.comments_desc_text {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  margin-bottom: 32px;
+  color: var(--primary-white-color);
+}
+.comments_desc_img {
+  text-align: center;
+  border-radius: 62px;
+  border: 2px solid #c4fffe;
+}
+/* ========================================================================================================== */
+/* REGISTER */
+.register {
+    padding: 76px;
+    background: var(--primary-light-coral-color);
+    background-image: url(../img/Group.svg);
+    background-repeat: no-repeat;
+    background-position:left bottom;
+}
+.register_container {
+}
+.register_wrapper {
+  display: flex;
+  justify-content: center;
+
+}
+.register_title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    color: var(--secondary-sacramento-state-green-color);
+    margin-right: 260px;
+}
+.register_link {
+    display: inline-block;
+    padding: 9px 33px 11px 32px;
+    border-radius: 24px;
+    border: 2px solid #012F34;
+    color: var(--secondary-sacramento-state-green-color);
+    transition: 0.3s linear;
+}
+.register_link:hover {
+    background: var(--secondary-sacramento-state-green-color);
+    color: var(--primary-white-color);
+}    
+/* ========================================================================================================== */
+
+/* FOOTER STYLES */
+
+.footer {
+  padding: 48px ;
+  background: var(--secondary-dark-green-color);
+}
+.footer_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer_wrapper {
+  margin-right: 125px;
+
+}
+.footer_logo {
+  margin-bottom: 25px;
+}
+.footer_list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.footer_item {
+}
+.footer_title{
+  width: 100%;
+  max-width: 445px;
+  line-height: 25px;
+  color: var(--secondary-rapture-blue-color);
+}
+.footer_link {
+  font-size: 18px;
+  color: var(--primary-white-color);
+}
+.net{
+
+}
+.net p {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  color: var(--primary-white-color);
+  opacity: 0.6000000238418579;
+}
+.net_list {
+  width: 100%;
+  max-width: 380px;
+  display:flex;
+  gap: 16px;
+}
+.net_list_item{
+  display: flex;
+  margin-bottom: 51px;
+}
+.net_link {
+}
+/* ========================================================================================================== */
